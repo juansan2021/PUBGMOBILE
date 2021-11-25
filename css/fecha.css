@@ -1,0 +1,37 @@
+.mifecha{
+    background: linear-gradient(to bottom, rgb(5, 206, 233), rgb(138, 4, 120));
+    padding: 3px;
+    width: 110px;
+    text-align: center;
+    font-family: arial;
+    font-size: 12pt;
+    border-radius: 6px;
+}
+.mifecha .anno{
+    background: linear-gradient(to bottom, rgb(5, 206, 233), rgb(138, 4, 120));
+    color: #131312;
+    padding: 2px;
+    font-size: 100%;
+    margin-bottom: 3px;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+}
+.mifecha .dia{
+    background: linear-gradient(to bottom, rgb(128, 0, 0), rgb(75, 0, 65));
+    color: #ffffff;
+    font-size: 300%;
+    padding: 2px 8px 5px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    text-shadow: 1px  1px 1px #000; 
+
+
+
+}
+.mifecha .mes{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: arial;
+}

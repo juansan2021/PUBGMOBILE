@@ -1,0 +1,73 @@
+#clock{
+	position: relative;
+	width:200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 10px solid #ffffff;
+	background-color: #5c7a90;
+}
+.scale{
+	width: 90px;
+	height: 2px;
+	background-color: #5c7a90;
+}
+
+ 
+.scale::after{
+	content: '';
+	position: absolute;
+	right: 1px;
+	width: 10px;
+	height: 2px;
+	background-color: aliceblue;
+}
+.scale,.num,.hour,.min,.sec{
+	position: absolute; 
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%);
+	transform-origin: left center; 
+}
+.num{
+	width: 30%;
+	height: 15px;
+	font-size: 20px;
+	color: #00FFFF;
+	/* background-color: #00FFFF; */
+	text-align: right;
+}
+	
+.num span {
+	display: inline-block;
+}
+.hour{
+	width: 20%;
+	height: 5px;
+	background-color: #ffffff;	
+	transform: rotate(-60deg);
+}
+
+.min{
+	width: 20%;
+	height: 3px;
+	background-color: #ffffff;	
+	transform: rotate(-30deg);
+}
+
+.sec{
+	width: 25%;
+	height: 2px;
+	background-color: #ffffff;
+		transform: rotate(-90deg);
+}
+.pointer_list::after{
+	content: '';
+	position: absolute; 
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 15px; 
+	height: 15px;
+	border-radius: 50%;
+	background-color: #00FFFF;
+}
